@@ -38,7 +38,7 @@ import praw, time
 from time import sleep
 
 # User Agent
-bot = praw.Reddit(username + " by /u/ddNTP")
+bot = praw.Reddit("SpellCheckBot " + str(version) + " by /u/ddNTP")
 
 # Track comment_id of each spelling error
 done1 = set()
@@ -103,7 +103,7 @@ while running:
         for comment in comments:
             count += 1
                         
-            if ('should of' in str(comment).lower()) and (comment.id not in done1):
+            if ('should of ' in str(comment).lower()) and (comment.id not in done1):
 
                 # REPLY TO COMMENT
                 done1.add(comment.id)
@@ -116,7 +116,7 @@ while running:
                 print (timeset + " ---FOUND A TOTAL OF " + str(shouldhave) + " people who use 'should of'---")
                 print (done1)
 
-            elif ('could of' in str(comment).lower()) and (comment.id not in done2):
+            elif ('could of ' in str(comment).lower()) and (comment.id not in done2):
                 
                 done2.add(comment.id)
                 comment.reply('>*could have* : as in I could have eaten that last slice of pizza. \n >> ^(Help me help you improve in English!)')
@@ -127,7 +127,7 @@ while running:
                 print (timeset + " ---FOUND A TOTAL OF " + str(couldhave) + " people who use 'could of'---")
                 print (done2)
 
-            elif ('would of' in str(comment).lower()) and (comment.id not in done3):
+            elif ('would of ' in str(comment).lower()) and (comment.id not in done3):
 
                 done3.add(comment.id)
                 comment.reply('>*would have* : as in I would have gotten away with it too... meddling kids. \n >> ^(Help me help you improve in English!)')
@@ -160,5 +160,5 @@ while running:
     except praw.errors.RateLimitExceeded:
         timeset = time.strftime("%d/%m/%y %H:%M:%S")
         print (timeset + " --ERROR-- Rate limit exceeded.")
-        sleep(200) # IF ERROR OCCURED, SLEEP FOR 200 SECONDS
+        sleep(150) # IF ERROR OCCURED, SLEEP FOR 150 SECONDS
                         
