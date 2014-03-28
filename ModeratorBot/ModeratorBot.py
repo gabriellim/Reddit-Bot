@@ -1,4 +1,4 @@
-'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+'''
 
 ModeratorBot by /u/ddNTP
 
@@ -6,7 +6,7 @@ ModeratorBot by /u/ddNTP
            post a comment advising users that comments which do not contribute to the discussions will be
            reported and probably removed by the subreddit moderators.
 
-'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+'''
 
 # D.O.B.
 DOB = "March 24 2014"
@@ -26,7 +26,7 @@ from collections import dequeu
 # Set subreddit to be moderated 
 subreddit = ""    ### COMPLETE THIS
 
-# ModeratorBot begins here
+# User Agent
 bot = praw.Reddit("ModeratorBot " + str(version) + " by /u/ddNTP")
 
 # Track thread_id so that ModeratorBot only makes one post per thread
