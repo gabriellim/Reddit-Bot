@@ -12,7 +12,7 @@ Highest rated comment /r/leagueoflegends -  http://www.reddit.com/r/leagueoflege
 As of March 28 2014, SpellCheckBot has detected:
 * 7 instances of should of
 * 4 instances of could of
-* 1 instances of would of
+* 2 instances of would of
 * 0 instances of effected me   (That incident really affected my friend)
 
 --------------------
@@ -21,6 +21,9 @@ As of March 28 2014, SpellCheckBot has detected:
 
 1. would offer is detected as would of*** which triggers the would of -> would have. Same thing happens to could offer
    and should offer.
+
+   PROPOSED FIX:
+   have the search term as 'would of ' instead of 'would of'
 '''
 
 # D.O.B.
