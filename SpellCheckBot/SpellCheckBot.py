@@ -7,8 +7,6 @@ SpellCheckBot by /u/ddNTP
        Stats:
 --------------------
 
-Highest rated comment /r/leagueoflegends -  http://www.reddit.com/r/leagueoflegends/comments/21bgng/i_killed_my_teammate/cgbqu89?context=3
-
 As of March 28 2014, SpellCheckBot has detected:
 * 7 instances of should of
 * 4 instances of could of
