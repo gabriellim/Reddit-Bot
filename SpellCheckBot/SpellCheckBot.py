@@ -8,9 +8,9 @@ SpellCheckBot by /u/ddNTP
 --------------------
 
 As of March 28 2014, SpellCheckBot has detected:
-* 7 instances of should of
-* 4 instances of could of
-* 2 instances of would of
+* 9 instances of should of
+* 8 instances of could of
+* 3 instances of would of
 * 0 instances of effected me   (That bone breaking accident really affected me)
 
 --------------------
@@ -100,7 +100,7 @@ while running:
         count = 0 
         
         # SCAN COMMENTS
-        comments = bot.get_comments('all', limit = 700)
+        comments = bot.get_comments('all', limit = 500)
         for comment in comments:
             count += 1
                         
@@ -155,11 +155,11 @@ while running:
 
         timeset = time.strftime("%d/%m/%y %H:%M:%S")
         print (timeset + " Just scanned " + str(count) + " comments.")
-        sleep(30)
+        sleep(55)
 		
-    # ERROR # Exception as e
-    except praw.errors.RateLimitExceeded:
+    # ERROR # Exception as e: # praw.errors.RateLimitExceeded:
+    except Exception as e:
         timeset = time.strftime("%d/%m/%y %H:%M:%S")
         print (timeset + " --ERROR-- Rate limit exceeded.")
-        sleep(150) # IF ERROR OCCURED, SLEEP FOR 150 SECONDS
+        sleep(300) # IF ERROR OCCURED, SLEEP FOR 300 SECONDS
                         
