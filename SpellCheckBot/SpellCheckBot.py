@@ -11,7 +11,7 @@ As of March 28 2014, SpellCheckBot has detected:
 * 7 instances of should of
 * 4 instances of could of
 * 2 instances of would of
-* 0 instances of effected me   (That incident really affected my friend)
+* 0 instances of effected me   (That bone breaking accident really affected me)
 
 --------------------
        Bugs:
