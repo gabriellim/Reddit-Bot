@@ -3,14 +3,23 @@ SpellCheckBot by /u/ddNTP
 
 [Python 3] SpellCheckBot is designed to search for comments on Reddit that have spelling mistakes...
 
+
+--------------------
+    Banned from:
+--------------------
+
+/r/nfl    28 March 2014 @ 18:40 PM
+/r/funny  28 March 2014 @ 19:01 PM
+
 --------------------
        Stats:
 --------------------
 
-As of March 28 2014, SpellCheckBot has detected:
-* 9 instances of should of
-* 8 instances of could of
-* 3 instances of would of
+As of March 28 2014 18:23:17 PST
+SpellCheckBot has detected:
+* 12 instances of should of
+* 11 instances of could of
+* 6 instances of would of
 * 0 instances of effected me   (That bone breaking accident really affected me)
 
 --------------------
