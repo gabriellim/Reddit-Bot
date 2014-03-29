@@ -8,8 +8,9 @@ SpellCheckBot by /u/ddNTP
     Banned from:
 --------------------
 
-/r/nfl    28 March 2014 @ 18:40 PM
-/r/funny  28 March 2014 @ 19:01 PM
+/r/nfl              28 March 2014 @ 18:40 PM
+/r/funny            28 March 2014 @ 19:01 PM
+/r/leagueoflegends  28 March 2014 @ 19:16 PM
 
 --------------------
        Stats:
@@ -17,7 +18,7 @@ SpellCheckBot by /u/ddNTP
 
 As of March 28 2014 18:23:17 PST
 SpellCheckBot has detected:
-* 12 instances of should of
+* 14 instances of should of
 * 11 instances of could of
 * 6 instances of would of
 * 0 instances of effected me   (That bone breaking accident really affected me)
