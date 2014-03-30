@@ -16,12 +16,12 @@ SpellCheckBot by /u/ddNTP
        Stats:
 --------------------
 
-As of March 29 2014 23:54 PST
-SpellCheckBot has detected:
-* 19 instances of should of
-* 13 instances of could of
-* 15 instances of would of
-* 0 instances of effected me   (That bone breaking accident really affected me)
+As of March 30 2014 00:48 PST
+SpellCheckBot has sent out:
+* 20 instances of should have         (search for should of)
+* 14 instances of could have          (search for could of
+* 16 instances of would have          (search for would of)
+* 0 instances of affected me          (search for effected me)
 
 --------------------
        Bugs:
