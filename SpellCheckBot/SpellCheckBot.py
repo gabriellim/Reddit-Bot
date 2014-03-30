@@ -16,11 +16,11 @@ SpellCheckBot by /u/ddNTP
        Stats:
 --------------------
 
-As of March 28 2014 18:23:17 PST
+As of March 29 2014 03:40 AM PST
 SpellCheckBot has detected:
 * 14 instances of should of
-* 11 instances of could of
-* 6 instances of would of
+* 12 instances of could of
+* 10 instances of would of
 * 0 instances of effected me   (That bone breaking accident really affected me)
 
 --------------------
