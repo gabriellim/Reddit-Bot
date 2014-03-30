@@ -16,11 +16,11 @@ SpellCheckBot by /u/ddNTP
        Stats:
 --------------------
 
-As of March 29 2014 03:40 AM PST
+As of March 29 2014 23:54 PST
 SpellCheckBot has detected:
-* 14 instances of should of
-* 12 instances of could of
-* 10 instances of would of
+* 19 instances of should of
+* 13 instances of could of
+* 15 instances of would of
 * 0 instances of effected me   (That bone breaking accident really affected me)
 
 --------------------
@@ -165,7 +165,7 @@ while running:
 
         timeset = time.strftime("%d/%m/%y %H:%M:%S")
         print (timeset + " Just scanned " + str(count) + " comments.")
-        sleep(55)
+        sleep(60)
 		
     # ERROR # Exception as e: # praw.errors.RateLimitExceeded:
     except Exception as e:
