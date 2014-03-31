@@ -16,11 +16,11 @@ SpellCheckBot by /u/ddNTP
        Stats:
 --------------------
 
-As of March 30 2014 20:10 PST
+As of March 31 2014 02:20 PST
 SpellCheckBot has sent out:
 * 22 instances of should have         (search for should of)
-* 15 instances of could have          (search for could of
-* 17 instances of would have          (search for would of)
+* 19 instances of could have          (search for could of
+* 18 instances of would have          (search for would of)
 
 --------------------
        Bugs:
@@ -64,11 +64,6 @@ def couldhave_comment_id():
 def wouldhave_comment_id():
     with open("wouldhave_comment_id.txt", "wt") as out_file:
         for i in done3:
-            out_file.write(i + " ")
-
-def affectedme_comment_id():
-    with open("affectedme_comment_id.txt", "wt") as out_file:
-        for i in done4:
             out_file.write(i + " ")
 
 ## START HERE ----------------------------------------------------------------------------------------------------------------
