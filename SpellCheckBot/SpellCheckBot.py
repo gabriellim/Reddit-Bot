@@ -69,7 +69,7 @@ def wouldhave_comment_id():
 ## START HERE ----------------------------------------------------------------------------------------------------------------
 
 
-sleep = 300    ## Initial sleep before bot runs
+t = 300    ## Initial sleep before bot runs
     
 shouldhave = 0
 couldhave = 0
@@ -100,7 +100,7 @@ def init_sleep(t):
         time.sleep(1)
         print (i)
 
-init_sleep(sleep)
+init_sleep(t)
 
 
 running = True
