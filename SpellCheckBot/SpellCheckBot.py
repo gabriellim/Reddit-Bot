@@ -4,13 +4,13 @@ SpellCheckBot by /u/ddNTP
 [Python 3] SpellCheckBot is designed to search for comments on Reddit that have spelling mistakes...
 
 
---------------------
-    Banned from:
---------------------
+------------------------------------------------------------------------------------------
+    Banned from:                                       Reason:
+------------------------------------------------------------------------------------------
 
-/r/nfl              28 March 2014 @ 18:40 PM
-/r/funny            28 March 2014 @ 19:01 PM
-/r/leagueoflegends  28 March 2014 @ 19:16 PM
+/r/nfl              28 March 2014 @ 18:40 PM           Unknown
+/r/funny            28 March 2014 @ 19:01 PM           Bot/novelty account not allowed
+/r/leagueoflegends  28 March 2014 @ 19:16 PM           Bot/novelty account not allowed
 
 --------------------
        Stats:
