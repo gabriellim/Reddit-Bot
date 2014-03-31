@@ -68,14 +68,8 @@ def wouldhave_comment_id():
 
 ## START HERE ----------------------------------------------------------------------------------------------------------------
 
-def init_sleep(t):
-    print("Initial sleep for " + str(t) + " seconds.")
-    for i in range(t, 0, -1):
-        time.sleep(1)
-        print (i)
 
 sleep = 300    ## Initial sleep before bot runs
-init_sleep(sleep)
     
 shouldhave = 0
 couldhave = 0
@@ -99,6 +93,15 @@ while not loggedin:
         print(timeset + " Login successful!")
     except praw.errors.InvalidUserPass:
         print ("Invalid username/password, please reauthenticate")
+
+def init_sleep(t):
+    print("Initial sleep for " + str(t) + " seconds.")
+    for i in range(t, 0, -1):
+        time.sleep(1)
+        print (i)
+
+init_sleep(sleep)
+
 
 running = True
 while running:
