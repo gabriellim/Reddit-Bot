@@ -70,7 +70,7 @@ def wouldhave_comment_id():
 ## START HERE ----------------------------------------------------------------------------------------------------------------
 
 
-t = 300    ## Initial sleep before bot runs
+t = 500    ## Initial sleep before bot runs
     
 shouldhave = 0
 couldhave = 0
@@ -119,7 +119,7 @@ while running:
 
                 # REPLY TO COMMENT
                 done1.add(comment.id)
-                comment.reply('>*should have* : as in I should have taken the bullet for you. \n >> ^(Help me help you improve in English!) ^(Parent comment may have been edited/deleted)')
+                comment.reply('>*should have* : as in I should have taken the bullet for you. \n >> ^(Help me help you improve in English!) ^(Parent comment may have been edited/deleted.)')
                 shouldhave += 1
                 shouldhave_comment_id()
 
@@ -131,7 +131,7 @@ while running:
             elif ('could of ' in str(comment).lower()) and (comment.id not in done2):
                 
                 done2.add(comment.id)
-                comment.reply('>*could have* : as in I could have eaten that last slice of pizza. \n >> ^(Help me help you improve in English!) ^(Parent comment may have been edited/deleted)')
+                comment.reply('>*could have* : as in I could have eaten that last slice of pizza. \n >> ^(Help me help you improve in English!) ^(Parent comment may have been edited/deleted.)')
                 couldhave += 1
                 couldhave_comment_id()
 
@@ -142,7 +142,7 @@ while running:
             elif ('would of ' in str(comment).lower()) and (comment.id not in done3):
 
                 done3.add(comment.id)
-                comment.reply('>*would have* : as in I would have gotten away with it too... meddling kids. \n >> ^(Help me help you improve in English!) ^(Parent comment may have been edited/deleted)')
+                comment.reply('>*would have* : as in I would have gotten away with it too... meddling kids. \n >> ^(Help me help you improve in English!) ^(Parent comment may have been edited/deleted.)')
                 wouldhave += 1
                 wouldhave_comment_id()
 
