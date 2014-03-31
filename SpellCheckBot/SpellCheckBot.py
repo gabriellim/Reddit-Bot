@@ -4,14 +4,14 @@ SpellCheckBot by /u/ddNTP
 [Python 3] SpellCheckBot is designed to search for comments on Reddit that have spelling mistakes...
 
 
-------------------------------------------------------------------------------------------
-    Banned from:                                       Reason:
-------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------
+    Banned from:                                    Reason:                                   Link:
+-----------------------------------------------------------------------------------------------------------------------------------------------
 
-/r/nfl              28 March 2014 @ ~18:40 PM           Unknown
-/r/funny            28 March 2014 @ ~19:01 PM           Bot/novelty account not allowed
-/r/leagueoflegends  28 March 2014 @ ~19:16 PM           Bot/novelty account not allowed
-/r/xboxone          31 March 2014 @ ~07:01 AM           Pending reply from moderators
+/r/nfl              28 March 2014 @ ~18:40 PM       Pending reply
+/r/funny            28 March 2014 @ ~19:01 PM       Bots aren't allowed in /r/funny           http://www.reddit.com/message/messages/1p8gq9
+/r/leagueoflegends  28 March 2014 @ ~19:16 PM       We don't allow novelty bots               http://www.reddit.com/message/messages/1p8gww
+/r/xboxone          31 March 2014 @ ~07:01 AM       We don't want junk bots                   http://www.reddit.com/message/messages/1pitsw
 
 --------------------
        Stats:
