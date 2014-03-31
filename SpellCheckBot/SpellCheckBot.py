@@ -21,17 +21,11 @@ SpellCheckBot has sent out:
 * 20 instances of should have         (search for should of)
 * 14 instances of could have          (search for could of
 * 16 instances of would have          (search for would of)
-* 0 instances of affected me          (search for effected me)
 
 --------------------
        Bugs:
 --------------------
 
-1. would offer is detected as would of*** which triggers the would of -> would have. Same thing happens to could offer
-   and should offer.
-
-   PROPOSED FIX:
-   have the search term as 'would of ' instead of 'would of'
 '''
 
 # D.O.B.
@@ -55,7 +49,6 @@ bot = praw.Reddit("SpellCheckBot " + str(version) + " by /u/ddNTP")
 done1 = set()
 done2 = set()
 done3 = set()
-done4 = set()
 
 # Record comment_id in a .txt file
 def shouldhave_comment_id():
@@ -148,17 +141,6 @@ while running:
                 timeset = time.strftime("%d/%m/%y %H:%M:%S")
                 print (timeset + " ---FOUND A TOTAL OF " + str(wouldhave) + " people who use 'would of'---")
                 print (done3)
-
-            elif ('effected me' in str(comment).lower()) and (comment.id not in done4):
-
-                done4.add(coment.id)
-                comment.reply('>*affected me* : as in that incident really affected me. \n >> ^(Help me help you improve in English!)')
-                affectedme += 1
-                affectedme_comment_id()
-
-                timeset = time.strftime("%d/%m/%y %H:%M:%S")
-                print (timeset + " ---FOUND A TOTAL OF " + str(affectedme) + " people who use 'effected me'---")
-                print (done4)
 
             else:
                 pass
