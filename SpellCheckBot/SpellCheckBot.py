@@ -8,7 +8,7 @@ SpellCheckBot by /u/ddNTP
     Banned from:                                    Reason:                                   Link:
 -----------------------------------------------------------------------------------------------------------------------------------------------
 
-/r/nfl              28 March 2014 @ ~18:40 PM       Pending reply
+/r/nfl              28 March 2014 @ ~18:40 PM       We don't allow novelty accounts           http://www.reddit.com/message/messages/1pl3bu
 /r/funny            28 March 2014 @ ~19:01 PM       Bots aren't allowed in /r/funny           http://www.reddit.com/message/messages/1p8gq9
 /r/leagueoflegends  28 March 2014 @ ~19:16 PM       We don't allow novelty bots               http://www.reddit.com/message/messages/1p8gww
 /r/xboxone          31 March 2014 @ ~07:01 AM       We don't want junk bots                   http://www.reddit.com/message/messages/1pitsw
