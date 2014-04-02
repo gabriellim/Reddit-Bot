@@ -18,12 +18,11 @@ SpellCheckBot by /u/ddNTP
 --------------------
 
 As of April 1 2014 09:32 PM PST
-      April 2 2014 04:35 AM UTC
       
 SpellCheckBot has sent out:
-* 54 instances of should have         (search for should of)
-* 44 instances of could have          (search for could of
-* 68 instances of would have          (search for would of)
+* 63 instances of should have         (search for should of)
+* 50 instances of could have          (search for could of
+* 73 instances of would have          (search for would of)
 
 --------------------
        Bugs:
@@ -35,7 +34,7 @@ SpellCheckBot has sent out:
 DOB = "March 24 2014"
 
 # Version
-version = "1.0.1"
+version = "1.1.1"
 
 # Internals
 PRAW = "2.1.14"
@@ -120,7 +119,7 @@ while running:
 
                 # REPLY TO COMMENT
                 done1.add(comment.id)
-                comment.reply('>*should have* : as in I should have taken the bullet for you. \n >> ^(Help me help you improve in English!) ^(Parent comment may have been edited/deleted.)')
+                comment.reply('>*should have*  Example: Those people are so fake, every one of them should have two Facebook accounts. One for each face! \n >> ^(Help me help you improve in English!) ^(Parent comment may have been edited/deleted.)')
                 shouldhave += 1
                 shouldhave_comment_id()
 
@@ -132,7 +131,7 @@ while running:
             elif ('could of ' in str(comment).lower()) and (comment.id not in done2):
                 
                 done2.add(comment.id)
-                comment.reply('>*could have* : as in I could have eaten that last slice of pizza. \n >> ^(Help me help you improve in English!) ^(Parent comment may have been edited/deleted.)')
+                comment.reply('>*could have*  Example: If I could have just one dance with you, I would pick a song that never ends. \n >> ^(Help me help you improve in English!) ^(Parent comment may have been edited/deleted.)')
                 couldhave += 1
                 couldhave_comment_id()
 
@@ -143,7 +142,7 @@ while running:
             elif ('would of ' in str(comment).lower()) and (comment.id not in done3):
 
                 done3.add(comment.id)
-                comment.reply('>*would have* : as in I would have gotten away with it too... meddling kids. \n >> ^(Help me help you improve in English!) ^(Parent comment may have been edited/deleted.)')
+                comment.reply('>*would have*  Example: I would have gotten away with it too... meddling kids. \n >> ^(Help me help you improve in English!) ^(Parent comment may have been edited/deleted.)')
                 wouldhave += 1
                 wouldhave_comment_id()
 
