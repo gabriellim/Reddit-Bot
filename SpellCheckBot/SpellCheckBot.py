@@ -17,11 +17,11 @@ SpellCheckBot by /u/ddNTP
        Stats:
 --------------------
 
-As of March 31 2014 09:13 PM PST
+As of April 1 2014 08:28 PM PST
 SpellCheckBot has sent out:
-* 33 instances of should have         (search for should of)
-* 26 instances of could have          (search for could of
-* 37 instances of would have          (search for would of)
+* 53 instances of should have         (search for should of)
+* 43 instances of could have          (search for could of
+* 68 instances of would have          (search for would of)
 
 --------------------
        Bugs:
@@ -69,8 +69,7 @@ def wouldhave_comment_id():
 
 ## START HERE ----------------------------------------------------------------------------------------------------------------
 
-
-t = 500    ## Initial sleep before bot runs
+t = 700    ## Initial sleep before bot runs
     
 shouldhave = 0
 couldhave = 0
