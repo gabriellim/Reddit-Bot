@@ -12,6 +12,8 @@ SpellCheckBot by /u/ddNTP
 /r/funny            28 March 2014 @ ~19:01 PM       Bots aren't allowed in /r/funny           http://www.reddit.com/message/messages/1p8gq9
 /r/leagueoflegends  28 March 2014 @ ~19:16 PM       We don't allow novelty bots               http://www.reddit.com/message/messages/1p8gww
 /r/xboxone          31 March 2014 @ ~07:01 AM       We don't want junk bots                   http://www.reddit.com/message/messages/1pitsw
+/r/asoiaf            3 April 2014 @ ~12:31 PM       Pending reply                             http://www.reddit.com/message/messages/1pwd26
+
 
 --------------------
        Stats:
@@ -23,7 +25,7 @@ As of April 3 2014 12:55 AM PST
 SpellCheckBot has sent out:
 * 85 instances of should have         (search for should of)
 * 70 instances of could have          (search for could of
-* 112 instances of would have          (search for would of)
+* 112 instances of would have         (search for would of)
 
 ------------------------
        Milestones:
