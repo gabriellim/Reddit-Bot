@@ -24,9 +24,11 @@ SpellCheckBot has sent out:
 * 50 instances of could have          (search for could of
 * 73 instances of would have          (search for would of)
 
---------------------
-       Bugs:
---------------------
+------------------------
+       Milestones:
+------------------------
+
+1000 comment karma   April 2 2014 11:28 PM PST
 
 '''
 
