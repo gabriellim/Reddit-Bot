@@ -20,12 +20,12 @@ SpellCheckBot by /u/ddNTP
 --------------------
 
 Since March 24 2014 8:30 PM PST
-As of April 3 2014 12:55 AM PST
+As of April 4 2014 2:45 AM PST
       
 SpellCheckBot has sent out:
-* 85 instances of should have         (search for should of)
-* 70 instances of could have          (search for could of
-* 112 instances of would have         (search for would of)
+* 128 instances of should have         (search for should of)
+* 95 instances of could have          (search for could of
+* 161 instances of would have         (search for would of)
 
 ------------------------
        Milestones:
