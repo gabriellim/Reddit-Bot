@@ -20,13 +20,13 @@ SpellCheckBot by /u/ddNTP
 --------------------
 
 Since March 24 2014 8:30 PM PST
-As of April 4 2014 10:53 PM PST
+As of April 5 2014 4:29 PM PST
       
 SpellCheckBot has sent out:
-* 149 instances of should have         (search for should of)
-* 104 instances of could have          (search for could of
-* 194 instances of would have          (search for would of)
-* 0   instances of must have           (search for must of)
+* 172 instances of should have         (search for should of)
+* 112 instances of could have          (search for could of
+* 212 instances of would have          (search for would of)
+* 3   instances of must have           (search for must of)
 
 ------------------------
        Milestones:
