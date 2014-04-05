@@ -25,7 +25,8 @@ As of April 4 2014 10:53 PM PST
 SpellCheckBot has sent out:
 * 149 instances of should have         (search for should of)
 * 104 instances of could have          (search for could of
-* 194 instances of would have         (search for would of)
+* 194 instances of would have          (search for would of)
+* 0   instances of must have           (search for must of)
 
 ------------------------
        Milestones:
@@ -39,7 +40,7 @@ SpellCheckBot has sent out:
 DOB = "March 24 2014"
 
 # Version
-version = "1.1.2"
+version = "1.1.3"
 
 # Internals
 PRAW = "2.1.14"
@@ -56,6 +57,7 @@ bot = praw.Reddit("SpellCheckBot " + str(version) + " by /u/ddNTP")
 done1 = set()
 done2 = set()
 done3 = set()
+done4 = set()
 
 # Record comment_id in a .txt file
 def shouldhave_comment_id():
@@ -73,6 +75,11 @@ def wouldhave_comment_id():
         for i in done3:
             out_file.write(i + " ")
 
+def musthave_comment_id():
+    with open("musthave_comment_id.txt", "wt") as out_file:
+        for i in done4:
+            out_file.write(i + " ")
+
 ## START HERE ----------------------------------------------------------------------------------------------------------------
 
 t = 45    ## Initial sleep before bot runs
@@ -80,7 +87,7 @@ t = 45    ## Initial sleep before bot runs
 shouldhave = 0
 couldhave = 0
 wouldhave = 0
-affectedme = 0
+musthave = 0
 
 print("Starting up SpellCheckBot")
 
@@ -124,7 +131,7 @@ while running:
 
                 # REPLY TO COMMENT
                 done1.add(comment.id)
-                comment.reply('>*should have* \n >>**Example:** Gertrude is so fake, she should have two Facebook accounts. One for each face! \n >>> ^(Parent comment may have been edited/deleted.) ^(Help me help you improve in English!)')
+                comment.reply('>*should have* \n >>**Example:** Two-Face should have two Facebook accounts. One for each face! \n >>> ^(Parent comment may have been edited/deleted.) ^(Help me help you improve in English!)')
                 shouldhave += 1
                 shouldhave_comment_id()
 
@@ -154,6 +161,17 @@ while running:
                 timeset = time.strftime("%d/%m/%y %H:%M:%S")
                 print (timeset + " ---FOUND A TOTAL OF " + str(wouldhave) + " people who use 'would of'---")
                 print (done3)
+
+            elif ('must of ' in str(comment).lower()) and (comment.id not in done4):
+
+                done4.add(comment.id)
+                comment.reply('>*must have* \n >>**Example:** A Jedi must have the deepest commitment, the most serious mind - Yoda. \n >>> ^(Parent comment may have been edited/deleted.) ^(Help me help you improve in English!)')
+                musthave += 1
+                musthave_comment_id()
+
+                timeset = time.strftime("%d/%m/%y %H:%M:%S")
+                print (timeset + " ---FOUND A TOTAL OF " + str(musthave) + " people who use 'must of'---")
+                print (done4)
 
             else:
                 pass
