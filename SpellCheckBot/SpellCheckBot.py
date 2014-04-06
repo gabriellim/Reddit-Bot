@@ -131,9 +131,9 @@ while running:
 
                 # REPLY TO COMMENT
                 done1.add(comment.id)
-                comment.reply('Homophone error detected. [What?](http://www.reddit.com/r/SpellingB/comments/22bwnw/homophone_error) + \
-                              &nbsp; **should have**    *Example:* Two-Face should have two Facebook accounts. One for each face! + \
-                              &nbsp; *** &nbsp; ^(Parent comment may have been edited/deleted.)')
+                comment.reply('Homophone error detected. [What?](http://www.reddit.com/r/SpellingB/comments/22bwnw/homophone_error) \
+                              \n **should have** \n *Example:* Two-Face should have two Facebook accounts. One for each face! \
+                              \n *** \n ^(Parent comment may have been edited/deleted.)')
                 shouldhave += 1
                 shouldhave_comment_id()
 
@@ -145,9 +145,9 @@ while running:
             elif ('could of ' in str(comment).lower()) and (comment.id not in done2):
                 
                 done2.add(comment.id)
-                comment.reply('Homophone error detected. [What?](http://www.reddit.com/r/SpellingB/comments/22bwnw/homophone_error) + \
-                              &nbsp; **could have**    *Example:* I could have taken the earlier train. + \
-                              &nbsp; *** &nbsp; ^(Parent comment may have been edited/deleted.)')
+                comment.reply('Homophone error detected. [What?](http://www.reddit.com/r/SpellingB/comments/22bwnw/homophone_error) \
+                              \n **could have** \n *Example:* I could have taken the earlier train. \
+                              \n *** \n ^(Parent comment may have been edited/deleted.)')
                 couldhave += 1
                 couldhave_comment_id()
 
@@ -158,9 +158,9 @@ while running:
             elif ('would of ' in str(comment).lower()) and (comment.id not in done3):
 
                 done3.add(comment.id)
-                comment.reply('Homophone error detected. [What?](http://www.reddit.com/r/SpellingB/comments/22bwnw/homophone_error) + \
-                              &nbsp; **would have**    *Example:* I would have gotten away with it too... meddling kids. + \
-                              &nbsp; *** &nbsp; ^(Parent comment may have been edited/deleted.)')
+                comment.reply('Homophone error detected. [What?](http://www.reddit.com/r/SpellingB/comments/22bwnw/homophone_error) \
+                              \n **would have** \n *Example:* I would have gotten away with it too... meddling kids. \
+                              \n *** \n ^(Parent comment may have been edited/deleted.)')
                 wouldhave += 1
                 wouldhave_comment_id()
 
@@ -171,9 +171,9 @@ while running:
             elif ('must of ' in str(comment).lower()) and (comment.id not in done4):
 
                 done4.add(comment.id)
-                comment.reply('Homophone error detected. [What?](http://www.reddit.com/r/SpellingB/comments/22bwnw/homophone_error) + \
-                              &nbsp; **must have**    *Example:* It must have been love but it\'s over now. + \
-                              &nbsp; *** &nbsp; ^(Parent comment may have been edited/deleted.)')
+                comment.reply('Homophone error detected. [What?](http://www.reddit.com/r/SpellingB/comments/22bwnw/homophone_error) \
+                              \n **must have** \n *Example:* It must have been love but it\'s over now. \
+                              \n *** \n ^(Parent comment may have been edited/deleted.)')
                 musthave += 1
                 musthave_comment_id()
 
