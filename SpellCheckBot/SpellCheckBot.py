@@ -118,7 +118,7 @@ while running:
 
                 # RECORD comment.id
                 with open("shouldhave_comment_id.txt", "a") as outfile:
-                outfile.write(comment.id + " ")
+                    outfile.write(comment.id + " ")
 
                 # CONSOLE DEBUG
                 timeset = time.strftime("%d/%m/%y %H:%M:%S")
@@ -134,7 +134,7 @@ while running:
                 couldhave += 1
 
                 with open("couldhave_comment_id.txt", "a") as outfile:
-                outfile.write(comment.id + " ")
+                    outfile.write(comment.id + " ")
         
                 timeset = time.strftime("%d/%m/%y %H:%M:%S")
                 print (timeset + " ---FOUND A TOTAL OF " + str(couldhave) + " people who use 'could of'---")
@@ -149,7 +149,7 @@ while running:
                 wouldhave += 1
 
                 with open("wouldhave_comment_id.txt", "a") as outfile:
-                outfile.write(comment.id + " ")
+                    outfile.write(comment.id + " ")
 
                 timeset = time.strftime("%d/%m/%y %H:%M:%S")
                 print (timeset + " ---FOUND A TOTAL OF " + str(wouldhave) + " people who use 'would of'---")
@@ -164,7 +164,7 @@ while running:
                 musthave += 1
                 
                 with open("musthave_comment_id.txt", "a") as outfile:
-                outfile.write(comment.id + " ")
+                    outfile.write(comment.id + " ")
                 
                 timeset = time.strftime("%d/%m/%y %H:%M:%S")
                 print (timeset + " ---FOUND A TOTAL OF " + str(musthave) + " people who use 'must of'---")
