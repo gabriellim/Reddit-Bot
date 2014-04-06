@@ -112,7 +112,7 @@ while running:
                 # REPLY TO COMMENT
                 done1.add(comment.id)
                 comment.reply('Homophone error detected. [What is it?](http://www.reddit.com/r/SpellingB/comments/22bwnw/homophone_error) \
-                              \n **should have** \n *Example:* Two-Face should have created two Facebook accounts. One for each face! \
+                              \n **should have** \n *Example:* I should have never thought horseback riding would be any better than ziplining. \
                               \n *** \n ^(Parent comment may have been edited/deleted.)')
                 shouldhave += 1
 
