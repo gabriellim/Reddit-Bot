@@ -40,7 +40,7 @@ SpellCheckBot has sent out:
 DOB = "March 24 2014"
 
 # Version
-version = "1.1.3"
+version = "1.1.4"
 
 # Internals
 PRAW = "2.1.14"
@@ -131,7 +131,9 @@ while running:
 
                 # REPLY TO COMMENT
                 done1.add(comment.id)
-                comment.reply('>*should have* \n >>**Example:** Two-Face should have two Facebook accounts. One for each face! \n >>> ^(Parent comment may have been edited/deleted.) ^(Help me help you improve in English!)')
+                comment.reply('Homophone error detected. [What?](http://www.reddit.com/r/SpellingB/comments/22bwnw/homophone_error) + \
+                              &nbsp; **should have**    *Example:* Two-Face should have two Facebook accounts. One for each face! + \
+                              &nbsp; *** &nbsp; ^(Parent comment may have been edited/deleted.)')
                 shouldhave += 1
                 shouldhave_comment_id()
 
@@ -143,7 +145,9 @@ while running:
             elif ('could of ' in str(comment).lower()) and (comment.id not in done2):
                 
                 done2.add(comment.id)
-                comment.reply('>*could have* \n >>**Example:** If I could have just one dance with you, I would pick a song that never ends. \n >>> ^(Parent comment may have been edited/deleted.) ^(Help me help you improve in English!)')
+                comment.reply('Homophone error detected. [What?](http://www.reddit.com/r/SpellingB/comments/22bwnw/homophone_error) + \
+                              &nbsp; **could have**    *Example:* I could have taken the earlier train. + \
+                              &nbsp; *** &nbsp; ^(Parent comment may have been edited/deleted.)')
                 couldhave += 1
                 couldhave_comment_id()
 
@@ -154,7 +158,9 @@ while running:
             elif ('would of ' in str(comment).lower()) and (comment.id not in done3):
 
                 done3.add(comment.id)
-                comment.reply('>*would have* \n >>**Example:** I would have gotten away with it too... meddling kids. \n >>> ^(Parent comment may have been edited/deleted.) ^(Help me help you improve in English!)')
+                comment.reply('Homophone error detected. [What?](http://www.reddit.com/r/SpellingB/comments/22bwnw/homophone_error) + \
+                              &nbsp; **would have**    *Example:* I would have gotten away with it too... meddling kids. + \
+                              &nbsp; *** &nbsp; ^(Parent comment may have been edited/deleted.)')
                 wouldhave += 1
                 wouldhave_comment_id()
 
@@ -165,7 +171,9 @@ while running:
             elif ('must of ' in str(comment).lower()) and (comment.id not in done4):
 
                 done4.add(comment.id)
-                comment.reply('>*must have* \n >>**Example:** A Jedi must have the deepest commitment, the most serious mind - Yoda. \n >>> ^(Parent comment may have been edited/deleted.) ^(Help me help you improve in English!)')
+                comment.reply('Homophone error detected. [What?](http://www.reddit.com/r/SpellingB/comments/22bwnw/homophone_error) + \
+                              &nbsp; **must have**    *Example:* It must have been love but it\'s over now. + \
+                              &nbsp; *** &nbsp; ^(Parent comment may have been edited/deleted.)')
                 musthave += 1
                 musthave_comment_id()
 
