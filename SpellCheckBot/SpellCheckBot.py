@@ -21,13 +21,13 @@ SpellCheckBot by /u/ddNTP
 --------------------
 
 Since March 24 2014 8:30 PM PST
-As of April 5 2014 4:29 PM PST
+As of April 6 2014 4:13 PM PST
       
 SpellCheckBot has sent out:
-* 172 instances of should have         (search for should of)
-* 112 instances of could have          (search for could of
-* 212 instances of would have          (search for would of)
-* 3   instances of must have           (search for must of)
+* 196 instances of should have          (search for should of)
+* 132 instances of could have           (search for could of
+* 230 instances of would have           (search for would of)
+* 15   instances of must have           (search for must of)
 
 ------------------------
        Milestones:
@@ -133,7 +133,7 @@ while running:
                 # REPLY TO COMMENT
                 done1.add(comment.id)
                 comment.reply('Homophone error detected. [What is it?](http://www.reddit.com/r/SpellingB/comments/22bwnw/homophone_error) \
-                              \n **should have** \n *Example:* Two-Face should have two Facebook accounts. One for each face! \
+                              \n **should have** \n *Example:* Two-Face should have created two Facebook accounts. One for each face! \
                               \n *** \n ^(Parent comment may have been edited/deleted.)')
                 shouldhave += 1
                 shouldhave_comment_id()
