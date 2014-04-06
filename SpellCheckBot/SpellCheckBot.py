@@ -61,28 +61,28 @@ done4 = set()
 
 # Record comment_id in a .txt file
 def shouldhave_comment_id():
-    with open("shouldhave_comment_id.txt", "wt") as out_file:
+    with open("shouldhave_comment_id.txt", "a") as out_file:
         for i in done1:
             out_file.write(i + " ")
 
 def couldhave_comment_id():
-    with open("couldhave_comment_id.txt", "wt") as out_file:
+    with open("couldhave_comment_id.txt", "a") as out_file:
         for i in done2:
             out_file.write(i + " ")
 
 def wouldhave_comment_id():
-    with open("wouldhave_comment_id.txt", "wt") as out_file:
+    with open("wouldhave_comment_id.txt", "a") as out_file:
         for i in done3:
             out_file.write(i + " ")
 
 def musthave_comment_id():
-    with open("musthave_comment_id.txt", "wt") as out_file:
+    with open("musthave_comment_id.txt", "a") as out_file:
         for i in done4:
             out_file.write(i + " ")
 
 ## START HERE ----------------------------------------------------------------------------------------------------------------
 
-t = 45    ## Initial sleep before bot runs
+t = 15    ## Initial sleep before bot runs
     
 shouldhave = 0
 couldhave = 0
@@ -131,7 +131,7 @@ while running:
 
                 # REPLY TO COMMENT
                 done1.add(comment.id)
-                comment.reply('Homophone error detected. [What?](http://www.reddit.com/r/SpellingB/comments/22bwnw/homophone_error) \
+                comment.reply('Homophone error detected. [What is it?](http://www.reddit.com/r/SpellingB/comments/22bwnw/homophone_error) \
                               \n **should have** \n *Example:* Two-Face should have two Facebook accounts. One for each face! \
                               \n *** \n ^(Parent comment may have been edited/deleted.)')
                 shouldhave += 1
@@ -145,7 +145,7 @@ while running:
             elif ('could of ' in str(comment).lower()) and (comment.id not in done2):
                 
                 done2.add(comment.id)
-                comment.reply('Homophone error detected. [What?](http://www.reddit.com/r/SpellingB/comments/22bwnw/homophone_error) \
+                comment.reply('Homophone error detected. [What is it?](http://www.reddit.com/r/SpellingB/comments/22bwnw/homophone_error) \
                               \n **could have** \n *Example:* I could have taken the earlier train. \
                               \n *** \n ^(Parent comment may have been edited/deleted.)')
                 couldhave += 1
@@ -158,7 +158,7 @@ while running:
             elif ('would of ' in str(comment).lower()) and (comment.id not in done3):
 
                 done3.add(comment.id)
-                comment.reply('Homophone error detected. [What?](http://www.reddit.com/r/SpellingB/comments/22bwnw/homophone_error) \
+                comment.reply('Homophone error detected. [What is it?](http://www.reddit.com/r/SpellingB/comments/22bwnw/homophone_error) \
                               \n **would have** \n *Example:* I would have gotten away with it too... meddling kids. \
                               \n *** \n ^(Parent comment may have been edited/deleted.)')
                 wouldhave += 1
@@ -171,7 +171,7 @@ while running:
             elif ('must of ' in str(comment).lower()) and (comment.id not in done4):
 
                 done4.add(comment.id)
-                comment.reply('Homophone error detected. [What?](http://www.reddit.com/r/SpellingB/comments/22bwnw/homophone_error) \
+                comment.reply('Homophone error detected. [What is it?](http://www.reddit.com/r/SpellingB/comments/22bwnw/homophone_error) \
                               \n **must have** \n *Example:* It must have been love but it\'s over now. \
                               \n *** \n ^(Parent comment may have been edited/deleted.)')
                 musthave += 1
