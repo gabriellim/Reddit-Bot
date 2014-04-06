@@ -9,4 +9,4 @@ Within a subreddit, ModeratorBot will first search for threads with the [Serious
 
 [**SpellCheckBot**](https://github.com/gabriellim/RedditBot/blob/master/SpellCheckBot/SpellCheckBot.py)
 
-First, search for comments that have common spelling mistakes i.e. would of instead of would have; should of instead of should have. SpellCheckBot will then post a reply indicating what the correct spelling should be and an example of the word being used in a sentence.
+SpellCheckBot currently searches for homophone errors (usage of words that have the same pronunciation but differ in meaning and may differ in spelling).
