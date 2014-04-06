@@ -41,7 +41,7 @@ SpellCheckBot has sent out:
 DOB = "March 24 2014"
 
 # Version
-version = "1.1.5"
+version = "1.1.6"
 
 # Internals
 PRAW = "2.1.14"
@@ -59,23 +59,6 @@ done1 = set()
 done2 = set()
 done3 = set()
 done4 = set()
-
-# Record comment_id in a .txt file
-def shouldhave_comment_id(comment.id):
-    with open("shouldhave_comment_id.txt", "a") as outfile:
-        outfile.write(comment.id + " ")
-
-def couldhave_comment_id(comment.id):
-    with open("couldhave_comment_id.txt", "a") as outfile:
-        outfile.write(comment.id + " ")
-
-def wouldhave_comment_id(comment.id):
-    with open("wouldhave_comment_id.txt", "a") as outfile:
-        outfile.write(comment.id + " ")
-
-def musthave_comment_id(comment.id):
-    with open("musthave_comment_id.txt", "a") as outfile:
-        outfile.write(comment.id + " ")
 
 ## START HERE ----------------------------------------------------------------------------------------------------------------
 
@@ -132,7 +115,10 @@ while running:
                               \n **should have** \n *Example:* Two-Face should have created two Facebook accounts. One for each face! \
                               \n *** \n ^(Parent comment may have been edited/deleted.)')
                 shouldhave += 1
-                shouldhave_comment_id(comment.id)
+
+                # RECORD comment.id
+                with open("shouldhave_comment_id.txt", "a") as outfile:
+                outfile.write(comment.id + " ")
 
                 # CONSOLE DEBUG
                 timeset = time.strftime("%d/%m/%y %H:%M:%S")
@@ -146,8 +132,10 @@ while running:
                               \n **could have** \n *Example:* I could have taken the earlier train. \
                               \n *** \n ^(Parent comment may have been edited/deleted.)')
                 couldhave += 1
-                couldhave_comment_id(comment.id)
 
+                with open("couldhave_comment_id.txt", "a") as outfile:
+                outfile.write(comment.id + " ")
+        
                 timeset = time.strftime("%d/%m/%y %H:%M:%S")
                 print (timeset + " ---FOUND A TOTAL OF " + str(couldhave) + " people who use 'could of'---")
                 print (done2)
@@ -159,7 +147,9 @@ while running:
                               \n **would have** \n *Example:* I would have gotten away with it too... meddling kids. \
                               \n *** \n ^(Parent comment may have been edited/deleted.)')
                 wouldhave += 1
-                wouldhave_comment_id(comment.id)
+
+                with open("wouldhave_comment_id.txt", "a") as outfile:
+                outfile.write(comment.id + " ")
 
                 timeset = time.strftime("%d/%m/%y %H:%M:%S")
                 print (timeset + " ---FOUND A TOTAL OF " + str(wouldhave) + " people who use 'would of'---")
@@ -172,8 +162,10 @@ while running:
                               \n **must have** \n *Example:* It must have been love but it\'s over now. \
                               \n *** \n ^(Parent comment may have been edited/deleted.)')
                 musthave += 1
-                musthave_comment_id(comment.id)
-
+                
+                with open("musthave_comment_id.txt", "a") as outfile:
+                outfile.write(comment.id + " ")
+                
                 timeset = time.strftime("%d/%m/%y %H:%M:%S")
                 print (timeset + " ---FOUND A TOTAL OF " + str(musthave) + " people who use 'must of'---")
                 print (done4)
