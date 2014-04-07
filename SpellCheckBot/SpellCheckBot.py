@@ -26,8 +26,8 @@ Since March 24 2014 8:30 PM PST
 As of April 7 2014 6:45 AM PST
       
 SpellCheckBot has sent out:
-* 211 instances of should have          (search for should of)
-* 139 instances of could have           (search for could of
+* 213 instances of should have          (search for should of)
+* 141 instances of could have           (search for could of
 * 244 instances of would have           (search for would of)
 * 22   instances of must have           (search for must of)
 
