@@ -8,28 +8,28 @@ SpellCheckBot by /u/ddNTP
     Banned from:                                    Reason:                              Link:
 -----------------------------------------------------------------------------------------------------------------------------------------------
 
-/r/nfl              28 March 2014 @ ~6:40  PM       We don't allow novelty accounts      http://www.reddit.com/message/messages/1pl3bu
-/r/funny            28 March 2014 @ ~7:01  PM       Bots are not allowed                 http://www.reddit.com/message/messages/1p8gq9
-/r/leagueoflegends  28 March 2014 @ ~7:16  PM       We don't allow novelty bots          http://www.reddit.com/message/messages/1p8gww
-/r/xboxone          31 March 2014 @ ~7:01  AM       We don't want junk bots              http://www.reddit.com/message/messages/1pitsw
-/r/asoiaf            3 April 2014 @ ~12:31 PM       Pending reply                        http://www.reddit.com/message/messages/1pwd26
-/r/relationships     6 April 2014 @ ~2:25  PM       Pending reply                        http://www.reddit.com/message/messages/1q8wyp
-/r/seireitei         6 April 2014 @ ~4:24  PM       Bots are not allowed                 http://www.reddit.com/message/messages/1q9di0
-/r/morbidreality     7 April 2014 @ ~12:09 AM       Pending reply                        http://www.reddit.com/message/messages/1qb2bo
-/r/mindcrack         7 April 2014 @ ~1:49  AM       No value added to the discussion     http://www.reddit.com/message/messages/1qb8gd
+/r/nfl              28 March 2014 @ ~6:40  PM       We don't allow novelty accounts                     http://www.reddit.com/message/messages/1pl3bu
+/r/funny            28 March 2014 @ ~7:01  PM       Bots are not allowed                                http://www.reddit.com/message/messages/1p8gq9
+/r/leagueoflegends  28 March 2014 @ ~7:16  PM       We don't allow novelty bots                         http://www.reddit.com/message/messages/1p8gww
+/r/xboxone          31 March 2014 @ ~7:01  AM       We don't want junk bots                             http://www.reddit.com/message/messages/1pitsw
+/r/asoiaf            3 April 2014 @ ~12:31 PM       Pending reply                                       http://www.reddit.com/message/messages/1pwd26
+/r/relationships     6 April 2014 @ ~2:25  PM       Pending reply                                       http://www.reddit.com/message/messages/1q8wyp
+/r/seireitei         6 April 2014 @ ~4:24  PM       Bots are not allowed                                http://www.reddit.com/message/messages/1q9di0
+/r/morbidreality     7 April 2014 @ ~12:09 AM       Detracts discussions/is incredibly insignificant    http://www.reddit.com/message/messages/1qb2bo
+/r/mindcrack         7 April 2014 @ ~1:49  AM       No value added to the discussion                    http://www.reddit.com/message/messages/1qb8gd
 
 --------------------
        Stats:
 --------------------
 
 Since March 24 2014 8:30 PM PST
-As of April 6 2014 4:13 PM PST
+As of April 7 2014 6:45 AM PST
       
 SpellCheckBot has sent out:
-* 196 instances of should have          (search for should of)
-* 132 instances of could have           (search for could of
-* 230 instances of would have           (search for would of)
-* 15   instances of must have           (search for must of)
+* 211 instances of should have          (search for should of)
+* 139 instances of could have           (search for could of
+* 244 instances of would have           (search for would of)
+* 22   instances of must have           (search for must of)
 
 ------------------------
        Milestones:
