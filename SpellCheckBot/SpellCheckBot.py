@@ -12,7 +12,7 @@ SpellCheckBot by /u/ddNTP
 /r/funny            28 March 2014 @ ~7:01  PM       Bots are not allowed                                http://www.reddit.com/message/messages/1p8gq9
 /r/leagueoflegends  28 March 2014 @ ~7:16  PM       We don't allow novelty bots                         http://www.reddit.com/message/messages/1p8gww
 /r/xboxone          31 March 2014 @ ~7:01  AM       We don't want junk bots                             http://www.reddit.com/message/messages/1pitsw
-/r/asoiaf            3 April 2014 @ ~12:31 PM       Pending reply                                       http://www.reddit.com/message/messages/1pwd26
+/r/asoiaf            3 April 2014 @ ~12:31 PM       Bots are not allowed                                http://www.reddit.com/message/messages/1pwd26
 /r/relationships     6 April 2014 @ ~2:25  PM       Pending reply                                       http://www.reddit.com/message/messages/1q8wyp
 /r/seireitei         6 April 2014 @ ~4:24  PM       Bots are not allowed                                http://www.reddit.com/message/messages/1q9di0
 /r/morbidreality     7 April 2014 @ ~12:09 AM       Detracts discussions/is incredibly insignificant    http://www.reddit.com/message/messages/1qb2bo
