@@ -35,7 +35,8 @@ SpellCheckBot has sent out:
        Milestones:
 ------------------------
 
-1000 comment karma   April 2 2014 11:28 PM PST
+1000 comment karma   April 2 2014 ~11:28 PM PST
+2000 comment karma   April 7 2014 ~4:15  AM PST
 
 '''
 
