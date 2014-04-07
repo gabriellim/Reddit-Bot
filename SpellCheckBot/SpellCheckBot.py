@@ -15,6 +15,7 @@ SpellCheckBot by /u/ddNTP
 /r/asoiaf            3 April 2014 @ ~12:31 PM       Pending reply                        http://www.reddit.com/message/messages/1pwd26
 /r/relationships     6 April 2014 @ ~2:25  PM       Pending reply                        http://www.reddit.com/message/messages/1q8wyp
 /r/seireitei         6 April 2014 @ ~4:24  PM       Bots are not allowed                 http://www.reddit.com/message/messages/1q9di0
+/r/morbidreality     7 April 2014 @ ~12:09 AM       Pending reply                        http://www.reddit.com/message/messages/1qb2bo
 
 --------------------
        Stats:
