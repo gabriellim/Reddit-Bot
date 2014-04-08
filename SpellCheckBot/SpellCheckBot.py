@@ -17,6 +17,8 @@ SpellCheckBot by /u/ddNTP
 /r/seireitei         6 April 2014 @ ~4:24  PM       Bots are not allowed                    http://www.reddit.com/message/messages/1q9di0
 /r/morbidreality     7 April 2014 @ ~12:09 AM       Novelty bots are not allowed            http://www.reddit.com/message/messages/1qb2bo
 /r/mindcrack         7 April 2014 @ ~1:49  AM       No value added to the discussion        http://www.reddit.com/message/messages/1qb8gd
+/r/politics          8 April 2014 @ ~12:23 PM       Waiting for a reply                     http://www.reddit.com/message/messages/1qhbgc                           
+/r/cringepics        8 April 2014 @ ~8:12  AM       Waiting for a reply                     http://www.reddit.com/message/messages/1qghc7
 
 --------------------
        Stats:
