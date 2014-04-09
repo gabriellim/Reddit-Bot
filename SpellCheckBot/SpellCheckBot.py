@@ -18,7 +18,7 @@ SpellCheckBot by /u/ddNTP
 /r/morbidreality     7 April 2014 @ ~12:09 AM       Novelty bots are not allowed            http://www.reddit.com/message/messages/1qb2bo
 /r/mindcrack         7 April 2014 @ ~1:49  AM       No value added to the discussion        http://www.reddit.com/message/messages/1qb8gd
 /r/politics          8 April 2014 @ ~12:23 PM       Bots are not allowed                    http://www.reddit.com/message/messages/1qhbgc                           
-/r/cringepics        8 April 2014 @ ~8:12  AM       Waiting for a reply                     http://www.reddit.com/message/messages/1qghc7
+/r/cringepics        8 April 2014 @ ~8:12  AM       Bots are not allowed                    http://www.reddit.com/message/messages/1qghc7
 
 --------------------
        Stats:
@@ -112,7 +112,7 @@ while running:
         for comment in comments:
             count += 1
                         
-            if ('should of ' in str(comment).lower()) and (comment.id not in done1):
+            if ('should of ' in str(comment).lower()) and (comment.id not in done1) and ('should of course' not in str(comment).lower()):
 
                 # REPLY TO COMMENT
                 done1.add(comment.id)
@@ -130,7 +130,7 @@ while running:
                 print (timeset + " ---FOUND A TOTAL OF " + str(shouldhave) + " people who use 'should of'---")
                 print (done1)
 
-            elif ('could of ' in str(comment).lower()) and (comment.id not in done2):
+            elif ('could of ' in str(comment).lower()) and (comment.id not in done2) and ('could of course' not in str(comment).lower()):
                 
                 done2.add(comment.id)
                 comment.reply('Homophone error detected. [What is it?](http://www.reddit.com/r/SpellingB/comments/22bwnw/homophone_error) \
@@ -145,7 +145,7 @@ while running:
                 print (timeset + " ---FOUND A TOTAL OF " + str(couldhave) + " people who use 'could of'---")
                 print (done2)
 
-            elif ('would of ' in str(comment).lower()) and (comment.id not in done3):
+            elif ('would of ' in str(comment).lower()) and (comment.id not in done3) and ('would of course' not in str(comment).lower()):
 
                 done3.add(comment.id)
                 comment.reply('Homophone error detected. [What is it?](http://www.reddit.com/r/SpellingB/comments/22bwnw/homophone_error) \
