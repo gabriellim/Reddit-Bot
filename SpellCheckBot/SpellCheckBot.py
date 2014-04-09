@@ -26,13 +26,13 @@ SpellCheckBot by /u/ddNTP
 --------------------
 
 Since March 24 2014 8:30 PM PST
-As of April 9 2014 12:09 AM PST
+As of April 9 2014 7:57 AM PST
       
 SpellCheckBot has sent out:
-* 233 instances of should have          (search for should of)
-* 161 instances of could have           (search for could of
-* 272 instances of would have           (search for would of)
-* 36   instances of must have           (search for must of)
+* 243 instances of should have          (search for should of)
+* 171 instances of could have           (search for could of
+* 286 instances of would have           (search for would of)
+* 43   instances of must have           (search for must of)
 
 ------------------------
        Milestones:
@@ -47,7 +47,7 @@ SpellCheckBot has sent out:
 DOB = "March 24 2014"
 
 # Version
-version = "1.1.6"
+version = "1.1.7"
 
 # Internals
 PRAW = "2.1.14"
@@ -65,6 +65,7 @@ done1 = set()
 done2 = set()
 done3 = set()
 done4 = set()
+done5 = set()
 
 ## START HERE -------------------------------------------------------------------------------------------------------------------
 
@@ -74,6 +75,7 @@ shouldhave = 0
 couldhave = 0
 wouldhave = 0
 musthave = 0
+faiap = 0
 
 print("Starting up SpellCheckBot")
 
@@ -117,7 +119,7 @@ while running:
 
                 # REPLY TO COMMENT
                 done1.add(comment.id)
-                comment.reply('Homophone error detected. [What is it?](http://www.reddit.com/r/SpellingB/comments/22bwnw/homophone_error) \
+                comment.reply('Grammar error detected. [What is it?](http://www.reddit.com/r/SpellingB/comments/22bwnw/homophone_error) \
                               \n **should have** \n *Example:* I should have never thought horseback riding would be any better than ziplining. \
                               \n *** \n ^(Parent comment may have been edited/deleted.)')
                 shouldhave += 1
@@ -128,13 +130,13 @@ while running:
 
                 # CONSOLE DEBUG
                 timeset = time.strftime("%d/%m/%y %H:%M:%S")
-                print (timeset + " ---FOUND A TOTAL OF " + str(shouldhave) + " people who use 'should of'---")
-                print (done1)
+                print(timeset + " ---FOUND A TOTAL OF " + str(shouldhave) + " people who use 'should of'---")
+                print(done1)
 
             elif ('could of ' in str(comment).lower()) and (comment.id not in done2) and ('could of course' not in str(comment).lower()):
                 
                 done2.add(comment.id)
-                comment.reply('Homophone error detected. [What is it?](http://www.reddit.com/r/SpellingB/comments/22bwnw/homophone_error) \
+                comment.reply('Grammar error detected. [What is it?](http://www.reddit.com/r/SpellingB/comments/22bwnw/homophone_error) \
                               \n **could have** \n *Example:* I could have taken the earlier train. \
                               \n *** \n ^(Parent comment may have been edited/deleted.)')
                 couldhave += 1
@@ -143,13 +145,13 @@ while running:
                     outfile.write(comment.id + " ")
         
                 timeset = time.strftime("%d/%m/%y %H:%M:%S")
-                print (timeset + " ---FOUND A TOTAL OF " + str(couldhave) + " people who use 'could of'---")
-                print (done2)
+                print(timeset + " ---FOUND A TOTAL OF " + str(couldhave) + " people who use 'could of'---")
+                print(done2)
 
             elif ('would of ' in str(comment).lower()) and (comment.id not in done3) and ('would of course' not in str(comment).lower()):
 
                 done3.add(comment.id)
-                comment.reply('Homophone error detected. [What is it?](http://www.reddit.com/r/SpellingB/comments/22bwnw/homophone_error) \
+                comment.reply('Grammar error detected. [What is it?](http://www.reddit.com/r/SpellingB/comments/22bwnw/homophone_error) \
                               \n **would have** \n *Example:* I would have gotten away with it too... meddling kids. \
                               \n *** \n ^(Parent comment may have been edited/deleted.)')
                 wouldhave += 1
@@ -158,13 +160,13 @@ while running:
                     outfile.write(comment.id + " ")
 
                 timeset = time.strftime("%d/%m/%y %H:%M:%S")
-                print (timeset + " ---FOUND A TOTAL OF " + str(wouldhave) + " people who use 'would of'---")
-                print (done3)
+                print(timeset + " ---FOUND A TOTAL OF " + str(wouldhave) + " people who use 'would of'---")
+                print(done3)
 
             elif ('must of ' in str(comment).lower()) and (comment.id not in done4):
 
                 done4.add(comment.id)
-                comment.reply('Homophone error detected. [What is it?](http://www.reddit.com/r/SpellingB/comments/22bwnw/homophone_error) \
+                comment.reply('Grammar error detected. [What is it?](http://www.reddit.com/r/SpellingB/comments/22bwnw/homophone_error) \
                               \n **must have** \n *Example:* It must have been love but it\'s over now. \
                               \n *** \n ^(Parent comment may have been edited/deleted.)')
                 musthave += 1
@@ -173,20 +175,35 @@ while running:
                     outfile.write(comment.id + " ")
                 
                 timeset = time.strftime("%d/%m/%y %H:%M:%S")
-                print (timeset + " ---FOUND A TOTAL OF " + str(musthave) + " people who use 'must of'---")
-                print (done4)
+                print(timeset + " ---FOUND A TOTAL OF " + str(musthave) + " people who use 'must of'---")
+                print(done4)
+
+            elif ('for all intensive purposes ' in str(comment).lower()) and (comment.id not in done5):
+
+                done5.add(comment.id)
+                comment.reply('Grammar error detected. [What is it?](http://www.reddit.com/r/SpellingB/comments/22bwnw/homophone_error) \
+                              \n **for all intents and purposes** \
+                              \n *** \n ^(Parent comment may have been edited/deleted.)')
+                faiap += 1
+
+                with open("forallintents_comment_id.txt", "a") as outfile:
+                    outfile.write(comment.id + " ")
+
+                timeset = time.strftime("%d/%m/%y %H:%M:%S")
+                print(timeset + " ---FOUND A TOTAL OF " + str(faiap) + " people who use 'for all intentsive purposes'---")
+                print(done5)
 
             else:
                 pass
 
         timeset = time.strftime("%d/%m/%y %H:%M:%S")
-        print (timeset + " Just scanned " + str(count) + " comments.")
+        print(timeset + " Just scanned " + str(count) + " comments.")
         sleep(20)
 		
     # ERROR # Exception as e: # praw.errors.RateLimitExceeded:
     except Exception as e:
         timeset = time.strftime("%d/%m/%y %H:%M:%S")
-        print (timeset + " --ERROR-- Rate limit exceeded.")
+        print(timeset + " --ERROR-- Rate limit exceeded.")
         sleep(300) # IF ERROR OCCURED, SLEEP FOR 300 SECONDS
 
 ## FIN --------------------------------------------------------------------------------------------------------------------------                       
