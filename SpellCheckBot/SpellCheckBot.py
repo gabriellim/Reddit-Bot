@@ -25,11 +25,11 @@ SpellCheckBot by /u/ddNTP
 --------------------
 
 Since March 24 2014 8:30 PM PST
-As of April 8 2014 9:25 PM PST
+As of April 8 2014 11:25 PM PST
       
 SpellCheckBot has sent out:
-* 231 instances of should have          (search for should of)
-* 158 instances of could have           (search for could of
+* 232 instances of should have          (search for should of)
+* 159 instances of could have           (search for could of
 * 272 instances of would have           (search for would of)
 * 36   instances of must have           (search for must of)
 
@@ -65,7 +65,7 @@ done2 = set()
 done3 = set()
 done4 = set()
 
-## START HERE ----------------------------------------------------------------------------------------------------------------
+## START HERE -------------------------------------------------------------------------------------------------------------------
 
 t = 15    ## Initial sleep before bot runs
     
@@ -180,11 +180,12 @@ while running:
 
         timeset = time.strftime("%d/%m/%y %H:%M:%S")
         print (timeset + " Just scanned " + str(count) + " comments.")
-        sleep(60)
+        sleep(20)
 		
     # ERROR # Exception as e: # praw.errors.RateLimitExceeded:
     except Exception as e:
         timeset = time.strftime("%d/%m/%y %H:%M:%S")
         print (timeset + " --ERROR-- Rate limit exceeded.")
         sleep(300) # IF ERROR OCCURED, SLEEP FOR 300 SECONDS
-                        
+
+## FIN --------------------------------------------------------------------------------------------------------------------------                       
