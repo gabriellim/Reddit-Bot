@@ -22,7 +22,7 @@ SpellCheckBot by /u/ddNTP
 /r/drugs             9 April 2014 @ ~7:11  AM       Useless bot are banned                  http://www.reddit.com/message/messages/1qksj9
 /r/gaming            9 April 2014 @ ~4:52  PM       Bots are not allowed                    http://www.reddit.com/message/messages/1qmxj4
 /r/soccer            9 April 2014 @ ~5:27  PM       Bots are not allowed                    http://www.reddit.com/message/messages/1qn2b0
-
+/r/nba               9 April 2014 @ ~6:16  PM       Irrelevant bots are not allowed         http://www.reddit.com/message/messages/1qn6bm
 
 --------------------
        Stats:
@@ -43,6 +43,7 @@ SpellCheckBot has sent out:
 
 1000 comment karma   April 2 2014 ~11:28 PM PST
 2000 comment karma   April 7 2014 ~4:15  AM PST
+3000 comment karam   ? ? ? ? ? ? ? ? ? ? ? ? ? 
 
 '''
 
