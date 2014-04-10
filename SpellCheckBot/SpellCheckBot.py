@@ -19,7 +19,10 @@ SpellCheckBot by /u/ddNTP
 /r/mindcrack         7 April 2014 @ ~1:49  AM       No value added to the discussion        http://www.reddit.com/message/messages/1qb8gd
 /r/politics          8 April 2014 @ ~12:23 PM       Bots are not allowed                    http://www.reddit.com/message/messages/1qhbgc                           
 /r/cringepics        8 April 2014 @ ~8:12  AM       Bots are not allowed                    http://www.reddit.com/message/messages/1qghc7
-/r/drugs             9 April 2014 @ ~7:11  AM       Pending reply                           http://www.reddit.com/message/messages/1qksj9
+/r/drugs             9 April 2014 @ ~7:11  AM       Useless bot are banned                  http://www.reddit.com/message/messages/1qksj9
+/r/gaming            9 April 2014 @ ~4:52  PM       Pending reply                           http://www.reddit.com/message/messages/1qmxj4
+/r/soccer            9 April 2014 @ ~5:27  PM       Pending reply                           http://www.reddit.com/message/messages/1qn2b0
+
 
 --------------------
        Stats:
