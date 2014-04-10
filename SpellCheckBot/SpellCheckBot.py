@@ -125,7 +125,7 @@ while running:
                 done1.add(comment.id)
                 comment.reply('Grammar error detected. [What is it?](http://www.reddit.com/r/SpellingB/comments/22bwnw/homophone_error) \
                               \n **should have** \n *Example:* I should have never thought horseback riding would be any better than ziplining. \
-                              \n *** \n ^(Parent comment may have been edited/deleted.) [STATS](http://www.reddit.com/r/SpellingB/comments/22o42h/stats/)')
+                              \n *** \n ^(Parent comment may have been edited/deleted.) ^[STATS](http://www.reddit.com/r/SpellingB/comments/22o42h/stats/)')
                 shouldhave += 1
 
                 # RECORD comment.id
@@ -142,7 +142,7 @@ while running:
                 done2.add(comment.id)
                 comment.reply('Grammar error detected. [What is it?](http://www.reddit.com/r/SpellingB/comments/22bwnw/homophone_error) \
                               \n **could have** \n *Example:* I could have taken the earlier train. \
-                              \n *** \n ^(Parent comment may have been edited/deleted.) [STATS](http://www.reddit.com/r/SpellingB/comments/22o42h/stats/)')
+                              \n *** \n ^(Parent comment may have been edited/deleted.) ^[STATS](http://www.reddit.com/r/SpellingB/comments/22o42h/stats/)')
                 couldhave += 1
 
                 with open("couldhave_comment_id.txt", "a") as outfile:
@@ -157,7 +157,7 @@ while running:
                 done3.add(comment.id)
                 comment.reply('Grammar error detected. [What is it?](http://www.reddit.com/r/SpellingB/comments/22bwnw/homophone_error) \
                               \n **would have** \n *Example:* I would have gotten away with it too... meddling kids. \
-                              \n *** \n ^(Parent comment may have been edited/deleted.) [STATS](http://www.reddit.com/r/SpellingB/comments/22o42h/stats/)')
+                              \n *** \n ^(Parent comment may have been edited/deleted.) ^[STATS](http://www.reddit.com/r/SpellingB/comments/22o42h/stats/)')
                 wouldhave += 1
 
                 with open("wouldhave_comment_id.txt", "a") as outfile:
@@ -172,7 +172,7 @@ while running:
                 done4.add(comment.id)
                 comment.reply('Grammar error detected. [What is it?](http://www.reddit.com/r/SpellingB/comments/22bwnw/homophone_error) \
                               \n **must have** \n *Example:* It must have been love but it\'s over now. \
-                              \n *** \n ^(Parent comment may have been edited/deleted.) [STATS](http://www.reddit.com/r/SpellingB/comments/22o42h/stats/)')
+                              \n *** \n ^(Parent comment may have been edited/deleted.) ^[STATS](http://www.reddit.com/r/SpellingB/comments/22o42h/stats/)')
                 musthave += 1
                 
                 with open("musthave_comment_id.txt", "a") as outfile:
@@ -187,7 +187,7 @@ while running:
                 done5.add(comment.id)
                 comment.reply('Grammar error detected. [What is it?](http://www.reddit.com/r/SpellingB/comments/22bwnw/homophone_error) \
                               \n **for all intents and purposes** \
-                              \n *** \n ^(Parent comment may have been edited/deleted.) [STATS](http://www.reddit.com/r/SpellingB/comments/22o42h/stats/)')
+                              \n *** \n ^(Parent comment may have been edited/deleted.) ^[STATS](http://www.reddit.com/r/SpellingB/comments/22o42h/stats/)')
                 faiap += 1
 
                 with open("forallintents_comment_id.txt", "a") as outfile:
