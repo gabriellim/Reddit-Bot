@@ -29,13 +29,13 @@ SpellCheckBot by /u/ddNTP
 --------------------
 
 Since March 24 2014 8:30 PM PST
-As of April 9 2014 7:57 AM PST
+As of April 9 2014 9:32 PM PST
       
 SpellCheckBot has sent out:
-* 243 instances of should have          (search for should of)
-* 171 instances of could have           (search for could of
-* 286 instances of would have           (search for would of)
-* 43   instances of must have           (search for must of)
+* 271 instances of should have          (search for should of)
+* 182 instances of could have           (search for could of
+* 319 instances of would have           (search for would of)
+* 47   instances of must have           (search for must of)
 
 ------------------------
        Milestones:
@@ -51,7 +51,7 @@ SpellCheckBot has sent out:
 DOB = "March 24 2014"
 
 # Version
-version = "1.1.7"
+version = "1.1.8"
 
 # Internals
 PRAW = "2.1.14"
@@ -125,7 +125,7 @@ while running:
                 done1.add(comment.id)
                 comment.reply('Grammar error detected. [What is it?](http://www.reddit.com/r/SpellingB/comments/22bwnw/homophone_error) \
                               \n **should have** \n *Example:* I should have never thought horseback riding would be any better than ziplining. \
-                              \n *** \n ^(Parent comment may have been edited/deleted.)')
+                              \n *** \n ^(Parent comment may have been edited/deleted.) [STATS](http://www.reddit.com/r/SpellingB/comments/22o42h/stats/)')
                 shouldhave += 1
 
                 # RECORD comment.id
@@ -142,7 +142,7 @@ while running:
                 done2.add(comment.id)
                 comment.reply('Grammar error detected. [What is it?](http://www.reddit.com/r/SpellingB/comments/22bwnw/homophone_error) \
                               \n **could have** \n *Example:* I could have taken the earlier train. \
-                              \n *** \n ^(Parent comment may have been edited/deleted.)')
+                              \n *** \n ^(Parent comment may have been edited/deleted.) [STATS](http://www.reddit.com/r/SpellingB/comments/22o42h/stats/)')
                 couldhave += 1
 
                 with open("couldhave_comment_id.txt", "a") as outfile:
@@ -157,7 +157,7 @@ while running:
                 done3.add(comment.id)
                 comment.reply('Grammar error detected. [What is it?](http://www.reddit.com/r/SpellingB/comments/22bwnw/homophone_error) \
                               \n **would have** \n *Example:* I would have gotten away with it too... meddling kids. \
-                              \n *** \n ^(Parent comment may have been edited/deleted.)')
+                              \n *** \n ^(Parent comment may have been edited/deleted.) [STATS](http://www.reddit.com/r/SpellingB/comments/22o42h/stats/)')
                 wouldhave += 1
 
                 with open("wouldhave_comment_id.txt", "a") as outfile:
@@ -172,7 +172,7 @@ while running:
                 done4.add(comment.id)
                 comment.reply('Grammar error detected. [What is it?](http://www.reddit.com/r/SpellingB/comments/22bwnw/homophone_error) \
                               \n **must have** \n *Example:* It must have been love but it\'s over now. \
-                              \n *** \n ^(Parent comment may have been edited/deleted.)')
+                              \n *** \n ^(Parent comment may have been edited/deleted.) [STATS](http://www.reddit.com/r/SpellingB/comments/22o42h/stats/)')
                 musthave += 1
                 
                 with open("musthave_comment_id.txt", "a") as outfile:
@@ -187,7 +187,7 @@ while running:
                 done5.add(comment.id)
                 comment.reply('Grammar error detected. [What is it?](http://www.reddit.com/r/SpellingB/comments/22bwnw/homophone_error) \
                               \n **for all intents and purposes** \
-                              \n *** \n ^(Parent comment may have been edited/deleted.)')
+                              \n *** \n ^(Parent comment may have been edited/deleted.) [STATS](http://www.reddit.com/r/SpellingB/comments/22o42h/stats/)')
                 faiap += 1
 
                 with open("forallintents_comment_id.txt", "a") as outfile:
