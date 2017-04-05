@@ -1,12 +1,12 @@
  RedditBot
 ===========
 
-A collection of bots written in Python 3 designed to interact with PRAW: The Python Reddit API Wrapper.
+A collection o' bots written in python 3 designed ta interact wit' praw: tha python reddit api wrappa.
 
 [**ModeratorBot**](https://github.com/gabriellim/RedditBot/blob/master/ModeratorBot/ModeratorBot.py)
 
-Within a subreddit, ModeratorBot will first search for threads with the [Serious] tag, which indicates that the OP (original poster) has designated his thread to only be commented by serious posters i.e. no puns, no jokes, no spam, no comments that will derail the discussion. Usually ModeratorBot will be the first to post a comment to the serious thread with a message that advises users about the consequences of not adhering to the [Serious] tag. Their comments will be recorded and subsequently removed by the subreddit moderators.
+Within a subreddit, moderatorbot gotta first search fo' threads wit' da [serious] tag, which indicates dat da op (original poster) has designated his muthafuckin' thread ta only be commented by straight posters i.e. no puns, no jokes, no spam, no comments dat gotta derail tha discussion. Usually moderatorbot gotta be tha first ta post a comment ta tha straight-up thread wit' a message dat advises users 'bout tha consequences o' not adherin' ta tha [serious] tag. Their muthafuckin' comments gotta be recorded n' subsequently removed by da subreddit moderators.
 
 [**SpellCheckBot**](https://github.com/gabriellim/RedditBot/blob/master/SpellCheckBot/SpellCheckBot.py)
 
-SpellCheckBot currently searches for homophone errors (usage of words that have the same pronunciation but differ in meaning and may differ in spelling).
+Spellcheckbot currently searches fo' homophone errors (usage o' words dat have da same pronunciation N' therez Ain't nuthin' but diffa in meanin' n' may diffa in spelling).
