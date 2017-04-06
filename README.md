@@ -9,4 +9,4 @@ Within a subreddit, moderatorbot gotta first search fo' threads wit' da [serious
 
 [**SpellCheckBot**](https://github.com/gabriellim/RedditBot/blob/master/SpellCheckBot/SpellCheckBot.py)
 
-Spellcheckbot currently searches fo' homophone errors (usage o' words dat have da same pronunciation N' therez Ain't nuthin' but diffa in meanin' n' may diffa in spelling).
+SpellCheckBot searches for homophone errors (usage of words that have the same pronunciation but differ in meaning or spelling).
