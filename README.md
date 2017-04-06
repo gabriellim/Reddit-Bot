@@ -5,7 +5,8 @@ A collection of bots written in python 3 based on the Python Reddit API Wrapper(
 
 [**ModeratorBot**](https://github.com/gabriellim/RedditBot/blob/master/ModeratorBot/ModeratorBot.py)
 
-Within a subreddit, moderatorbot gotta first search fo' threads wit' da [serious] tag, which indicates dat da op (original poster) has designated his muthafuckin' thread ta only be commented by straight posters i.e. no puns, no jokes, no spam, no comments dat gotta derail tha discussion. Usually moderatorbot gotta be tha first ta post a comment ta tha straight-up thread wit' a message dat advises users 'bout tha consequences o' not adherin' ta tha [serious] tag. Their muthafuckin' comments gotta be recorded n' subsequently removed by da subreddit moderators.
+A subreddit is a sub-topic in Reddit.com, similar to a topic within a traditional forum. Within a subreddit, ModeratorbBot first search for threads wit' da [serious] tag, which indicates that the OP (original poster) has designated his thread to only accepting comments that are serious posters, which means no puns, no jokes, no spam, no comments that will derail the discussion. Usually ModeratorBot will be the first to post a comment to the serious thread with a message that advises users about the consequences of not adhering to the [Serious] tag. Their comments will be recorded and subsequently removed by the subreddit moderators.
+
 
 [**SpellCheckBot**](https://github.com/gabriellim/RedditBot/blob/master/SpellCheckBot/SpellCheckBot.py)
 
