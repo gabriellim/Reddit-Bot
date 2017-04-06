@@ -1,7 +1,7 @@
  RedditBot
 ===========
 
-A collection o' bots written in python 3 designed ta interact wit' praw: tha python reddit api wrappa.
+A collection of bots written in python 3 based on the Python Reddit API Wrapper(PRAW).
 
 [**ModeratorBot**](https://github.com/gabriellim/RedditBot/blob/master/ModeratorBot/ModeratorBot.py)
 
